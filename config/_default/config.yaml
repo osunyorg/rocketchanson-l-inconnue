@@ -14,3 +14,7 @@ params:
   home:
     head:
       title: site
+  events:
+    index:
+      options:
+        place: true
