@@ -2,13 +2,34 @@
 
 fr:
   title: >-
-    L'inconnue
+    L'Inconnue
   contentDir: content/fr
   languageCode: fr
   languageName: Français
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            linconnuecurieuse
+          value: >-
+            https://www.facebook.com/linconnuecurieuse
+        instagram:
+          label: >-
+            linconnuecurieuse
+          value: >-
+            https://instagram.com/linconnuecurieuse
+        linkedin:
+          label: >-
+            linconnue
+          value: >-
+            https://www.linkedin.com/company/linconnue/
+        youtube:
+          label: >-
+            channelUCAG65E_O5r-qhd58bQxUqEg
+          value: >-
+            https://www.youtube.com/@channelUCAG65E_O5r-qhd58bQxUqEg
 
   taxonomies:
     administrator: administrators
