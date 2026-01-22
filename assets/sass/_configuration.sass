@@ -1,10 +1,12 @@
 $heading-font-family: "Ginka", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 $body-font-family: $heading-font-family
 
-$header-background: none
+$header-background: var(--color-background)
+$header-sticky-background: var(--color-text)
+$header-sticky-color: var(--color-background)
+$header-sticky-invert-logo: true
 $header-border-bottom-width: 0
-$hero-background-color: none
-$footer-background-color: none
+// $hero-background-color: none
 
 $color-background-alt: #B2FCE4
 $color-accent: #E30E20
@@ -14,7 +16,8 @@ $header-logo-height-desktop: pxToRem(100)
 $header-logo-height: auto
 $footer-logo-height-desktop: pxToRem(100)
 $footer-logo-height: auto
-$footer-background-color: var(--color-background-alt)
+$footer-background-color: var(--color-text)
+$footer-color: var(--color-background)
 
 $grid-gutter: pxToRem(24)
 $grid-gutter-lg: pxToRem(24)

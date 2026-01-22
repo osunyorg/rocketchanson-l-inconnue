@@ -2,9 +2,25 @@ header#document-header
     nav.primary-menu 
         > .container
             gap: $spacing-1
+    &.is-sticky
+        .logo
+            img
+                height: pxToRem(40)
+                transition: height 0.3s ease-in-out
+
 
 .event,
 .exhibition,
 .post
     [class$="-subtitle"]
         @include h4
+
+.event
+    .media
+        img
+            aspect-ratio: auto !important
+
+.page__home
+    .hero
+        h1
+            @extend .sr-only
