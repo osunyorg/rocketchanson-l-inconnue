@@ -8,7 +8,6 @@ header#document-header
                 height: pxToRem(40)
                 transition: height 0.3s ease-in-out
 
-
 .event,
 .exhibition,
 .post,
@@ -24,6 +23,11 @@ header#document-header
     .media
         img
             aspect-ratio: auto !important
+
+.events--list
+    article.event
+        .event-dates
+            @include h5
 
 .page__home
     .hero
