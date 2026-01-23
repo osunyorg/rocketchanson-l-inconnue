@@ -14,7 +14,14 @@ params:
   home:
     head:
       title: site
+  breadcrumb:
+    position: after-hero
+
   events:
     index:
       options:
         place: true
+
+  posts:
+    index:
+      layout: grid
