@@ -7,7 +7,14 @@ header#document-header
             img
                 height: pxToRem(40)
                 transition: height 0.3s ease-in-out
-
+    @include media-breakpoint-down(desktop)
+        nav.primary-menu
+            > .container
+                flex-wrap: nowrap
+                gap: $spacing-3
+                .logo
+                    img
+                        max-height: pxToRem(50)
 .event,
 .exhibition,
 .post,
