@@ -2,34 +2,44 @@
 title: Menu principal
 items:
 - title: Agenda
+  slug: agenda
   target: "/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Musicien•nes
+  slug: musicien-nes
   target: ''
   kind: blank
   new_tab: false
   children: []
+  descendants_targets: []
 - title: École de musique
+  slug: ecole-de-musique
   target: ''
   kind: blank
   new_tab: false
   children: []
+  descendants_targets: []
 - title: Offres d'emploi
+  slug: offres-d-emploi
   target: "/offres-d-emploi/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/jobs"
   file: content/fr/jobs/_index.html
 
